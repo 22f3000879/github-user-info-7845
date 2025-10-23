@@ -1,23 +1,22 @@
-# GitHub User Creation Date App
+# GitHub User Info App
 
-This is a simple web application that allows users to enter a GitHub username and retrieve the account creation date in UTC format.
+This is a simple web application that fetches and displays information about a GitHub user based on their username. The application shows the username, account creation date, how many years old the account is, and the number of public repositories.
 
 ## Features
-- User-friendly interface built with Tailwind CSS.
-- Fetches data from the GitHub API to display the account creation date.
-- Handles errors gracefully, informing users if the username is not found.
+- Fetch user information from GitHub API
+- Display username, account creation date, and age of the account
+- Responsive design using Tailwind CSS
 
 ## Technologies Used
 - HTML
 - JavaScript
 - Tailwind CSS (via CDN)
-- GitHub API
 
 ## How to Use
-1. Open the `index.html` file in your web browser.
-2. Enter a valid GitHub username in the input field.
-3. Click the "Get Creation Date" button.
-4. The account creation date will be displayed below the form.
+1. Clone the repository or download the files.
+2. Open `index.html` in your web browser.
+3. Enter a GitHub username in the input field and click the 'Fetch User Info' button.
+4. The user information will be displayed below the button.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
